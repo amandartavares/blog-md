@@ -14,7 +14,3 @@ Este é um paragráfo
 ## Sub-titulo
 
 Este é outro paragrafo
-
-![Minha foto](./img1.jpg)
-
-![Minha foto](../img2.jpg)
