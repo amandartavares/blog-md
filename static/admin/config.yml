@@ -7,18 +7,18 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-    name: "author"
+  - name: "author"
     label: "Autores"
     folder: "src/authors"
     create: true
     slug: "{{slug}}"
     path: "{{slug}}/index"
     fields:
-       - { label: 'Nome', name: 'title', widget: 'string' }
-       - { label: 'Avatar', name: 'avatar', widget: 'image' }
-       - { label: 'Bio', name: 'body', widget: 'markdown' }
+      - { label: 'Nome', name: 'title', widget: 'string' }
+      - { label: 'Avatar', name: 'avatar', widget: 'image' }
+      - { label: 'Bio', name: 'body', widget: 'markdown' }
 
-    name: 'blog'
+  - name: 'blog'
     label: 'Blog posts'
     folder: 'src/content'
     create: true
