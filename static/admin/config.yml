@@ -7,7 +7,7 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "author"
+    name: "author"
     label: "Autores"
     folder: "src/authors"
     create: true
