@@ -4,6 +4,7 @@ import Seo from '../components/Seo'
 import Img from 'gatsby-image'
 
 const Post = ({data}) => {
+    console.log(data)
     return(
         <div>
             <Seo 
@@ -12,7 +13,7 @@ const Post = ({data}) => {
              />
              {data.markdownRemark.frontmatter.banner && (
              <Img 
-              fluid={data.markdownRemark.frontmatter.banner.chilImageSharp.fluid} 
+              fluid={data.markdownRemark.frontmatter.banner.childImageSharp.fluid} 
              />
              )}  
             <h1>{data.markdownRemark.frontmatter.title}</h1>
